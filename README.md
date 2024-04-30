@@ -1,0 +1,1 @@
+Durante o curso de HTML, exploramos em detalhes a estilização de elementos, com foco especial em fontes, tamanhos e medidas de letras. Nossa aprendizagem abrangeu diversos aspectos, incluindo a compreensão do peso de cada fonte, a aplicação de estilos de forma eficiente e rápida, além do conceito de herança na estilização.

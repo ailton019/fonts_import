@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importando Fonte</title>
+</head>
+    <style>
+        @font-face{
+            font-family:'Exercito' ;
+            src: url('Take cover.ttf') format('opentype'), url('Road_Rage') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family:'road' ;
+            src: url('Road_Rage.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: green;
+
+        }
+        h1{
+            font-family: Exercito;
+            font-size: 5em;
+            text-align: center;
+            font-weight: normal; /*nesse caso para ele ajustar para não fazer negrito*/
+
+        }
+        h2{
+            font-family: road;
+            font-size: 3em;
+            text-align: center;
+            font-weight: normal;
+
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            font-weight: normal;
+            text-align: justify;
+        }
+    </style>
+<body>
+    <h1>Iportando por download.</h1>
+
+    <h2>Tipos de formatos, para importação via download. </h2>
+    <p>Ajuste da imagem da letra, que fez a importação font-weight: normal;</p>
+    <p>tipos de format:</p>
+    <p>- opentyp (otf)</p>
+    <p>- truetype (ttf)</p>
+    <p>- embedded-opentype</p>
+    <p>- truetype-aat (apple advacend typography)</p>
+    <p>- svg </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur libero aliquam, vitae vel officiis minus consequatur reiciendis. Esse, reprehenderit maxime vero facilis quisquam consequatur pariatur nisi corrupti facere, suscipit veniam.</p>
+    <p>Importando por o site dafont. </p>  
+    <p>Exemplo do processo após o download da font:</p>
+
+        <p>    @font-face{</p>   
+        <p>        font-family:'Exercito' ;</p>   
+        <p>        src: url('Take cover.ttf') format('opentype'), url('Road_Rage') format('opentype');</p>   
+        <p>        font-weight: normal;</p>   
+        <p>        font-style: normal;</p>   
+        <p>    }</p>   
+        <p>    @font-face {</p>   
+        <p>        font-family:'road' ;</p>   
+        <p>         src: url('Road_Rage.otf') format('opentype');</p>   
+        <p>        font-weight: normal;</p>   
+        <p>        font-style: normal;</p>   
+        <p>    }</p>   
+        <p>    body{</p>   
+        <p>        font-family: 'Courier New', Courier, monospace;</p>   
+        <p>        background-color: green;</p>   
+        <p></p>   
+        <p>   }</p>   
+        <p>    h1{</p>   
+        <p>     font-family: Exercito;</p>   
+        <p>        font-size: 5em;</p>   
+        <p>        text-align: center;</p>   
+        <p>        font-weight: normal; /*nesse caso para ele ajustar para não fazer negrito*/ </p>   
+        <p></p>   
+        <p>    }</p>   
+        <p>    h2{</p>   
+        <p>        font-family: road;</p>   
+        <p>        font-size: 3em;</p>   
+        <p>        text-align: center;</p>   
+        <p>        font-weight: normal;</p>   
+        <p></p>   
+        <p>     }</p>   
+        <p>     p{</p>   
+        <p>         font-family: road;</p>   
+        <p>         font-size: 1em;</p>   
+        <p>         font-weight: normal;</p>   
+        <p>     }</p>      
+</body>
+</html>
